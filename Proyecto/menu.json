@@ -1,0 +1,188 @@
+{
+"Menu":[
+{ 
+  "nombre": "Huevo en salsa verde",
+  "descripcion": "Huevos, salsa de su preferencia, salchicha, chorizo, tocino, vegetales",
+  "precio": 45,
+  "imagen":"1.jpeg"
+},
+{
+	"nombre": "Hot cakes",
+  "descripcion": "Chocolate, nutella, frutas, cereales de su preferencia",
+  "precio": 40,
+  "imagen":"2.jpeg"
+},
+{
+	"nombre": "Chilaquiles caseros",
+  "descripcion": "Totopos, salsa de su preferencia, pollo o huevo, crema, queso, lechuga, aguacate",
+  "precio": 135,
+  "imagen":"3.jpeg"
+},
+{
+"nombre": "Waffles",
+  "descripcion": "Chocolate, nutella, fruta",
+  "precio": 55,
+  "imagen":"4.jpeg"
+},
+{
+"nombre": "Huevos con tocino",
+  "descripcion": "Huevos, tocino, incluye pan",
+  "precio": 40,
+  "imagen":"5.jpeg"
+},
+{
+"nombre": "Nuggets",
+  "descripcion": "Nuggets de pollo, verdura y aderezo",
+  "precio": 45,
+  "imagen":"6.jpeg"
+},
+{
+"nombre": "Coctel de Fruta",
+  "descripcion": "Fruta variada o de su preferencia, miel",
+  "precio": 155,
+  "imagen":"7.jpeg"
+},
+{
+"nombre": "Enchiladas suizas",
+  "descripcion": "Pollo, salsa de su preferencia, media crema, queso fresco, cebolla curtida",
+  "precio": 135,
+  "imagen":"8.jpeg"
+},
+{
+"nombre": "Pay de Limon",
+  "descripcion": "Contiene queso philadelphia, galletas marias, leche condensada, leche evaporada, jugo de limon y vainilla.",
+  "precio": 55,
+  "imagen":"9.jpeg"
+},
+{
+"nombre": "Menudo",
+  "descripcion": "Contiene Pancita de res, cebolla, ajo, laurel, maiz grande, chiles rojos secos, especias.",
+  "precio": 145,
+  "imagen":"10.jpeg"
+},
+{
+"nombre": "Sopa de Fideos",
+  "descripcion": "Consome, fideos, incluye pan.",
+  "precio": 80,
+  "imagen":"11.jpeg"
+},
+{
+"nombre": "Sandwich",
+  "descripcion": "Jamon, Pollo o Guisado de su preferencia, lechuga, tomate, queso.",
+  "precio": 45,
+  "imagen":"12.jpeg"
+},
+{
+"nombre": "Malteada",
+  "descripcion":"Vainilla, fresa, chocolate",
+  "precio": 65,
+  "imagen":"13.jpeg"
+},
+{
+"nombre": "Tamal veracruzano",
+  "descripcion":"Contiene carne de puerco, chile ancho, hija de platano, cebolla y especias.",
+  "precio": 90,
+  "imagen":"14.jpeg"
+},
+{
+"nombre": "Consome de pollo",
+  "descripcion":"Pollo, verduras, incluye pan.",
+  "precio": 80,
+  "imagen":"15.jpeg"
+},
+{
+"nombre": "Chuletas entomatadas",
+  "descripcion":"Contiene chuleta de cerdo, tomate, cebolla, chile serrano y frijoles.",
+  "precio": 90,
+  "imagen":"16.jpeg"
+},
+{
+"nombre": "Hot dogs",
+  "descripcion":"Contiene salchicha frita, cebolla, tomate, mayonesa y catsup.",
+  "precio": 45,
+  "imagen":"17.jpeg"
+},
+{
+"nombre": "Pasta",
+  "descripcion":"Pasta, salsa de tomate, queso, cilantro y especias",
+  "precio": 90,
+  "imagen":"18.jpeg"
+},
+{
+"nombre": "Mini hamburguesa",
+  "descripcion":"Carne, lechuga, tomate, huevo, queso amarillo.",
+  "precio": 75,
+  "imagen":"19.jpeg"
+},
+{
+"nombre": "Pastel",
+  "descripcion":"Chocolate, vainilla, durazno, tres leches, moka.",
+  "precio": 45,
+  "imagen":"20.jpeg"
+}
+],
+"Extras": [
+  {
+    "nombre": "Papas en gajos",
+    "descripcion": "Carne de res, lechuga, tomate, cebolla y queso cheddar",
+    "precio": 65,
+    "imagen": "21.jpg"
+  },
+  {
+    "nombre": "Papas a la francesa",
+    "descripcion": "Papas fritas, trozos de carne de res, vegetales y queso amarillo",
+    "precio": 75,
+    "imagen": "22.jpg"
+},
+{
+    "nombre": "Brochetas de tocino",
+    "descripcion": "Tiras de tocino, queso, condimentos",
+    "precio": 65,
+    "imagen": "23.jpg"
+    },
+    {
+    "nombre": "Vegetales",
+    "descripcion": "Tomate, lechuga, pepinillos, limon",
+    "precio": 65,
+    "imagen": "24.jpg"
+    }
+    ],
+"Bebidas":[
+{
+    "nombre": "Coca-cola",
+    "descripcion": "Lata de refresco sabor cola",
+    "precio": 25,
+    "imagen": "25.png"
+    }, 
+    {
+    "nombre": "Sprite",
+    "descripcion": "Lata de refresco sabor sprite",
+    "precio": 25,
+    "imagen": "26.jpg"
+    }, 
+{
+    "nombre": "Joya",
+    "descripcion": "Lata de refresco sabor opcional (ponche de frutas, manzana, tamarindo)",
+    "precio": 25,
+    "imagen": "27.jpg"
+    }, 
+    {
+    "nombre": "Malteada",
+    "descripcion": "Jarro de malteada (Vanilla, chocolate o fresa)",
+    "precio": 45,
+    "imagen": "28.jpg"
+    }, 
+     {
+    "nombre": "Licuado de frutas",
+    "descripcion": "Jarro de licuado (Platano, melon, papaya, fresa, mango)",
+    "precio": 65,
+    "imagen": "29.jpg"
+    },
+     {
+    "nombre": "Cafe",
+    "descripcion": "Cafe negro con crema o leche de su preferencia",
+    "precio": 50,
+    "imagen": "30.jpg"
+    }
+   ] 
+}

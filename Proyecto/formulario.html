@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcd.bootstrapcdn.con/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.cdnfonts.com/css/philom" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/gabuek-script" rel="stylesheet">
+
+
+                
+<title>Pagina 1</title>
+</head>
+<body>
+
+<div style="margin:24px;">
+	<nav class="navbar navbar-inverse navbar-stick-static-top">
+	<div class="container">
+	<a class="navbar-brand" href="index.html">Inicio</a>
+	<ul class="nav navbar-nav">
+<li>
+<a href="menu.html">Menu</a> 
+</li>
+<li>
+	<a href="formulario.html">Formulario</a>
+</li>
+<li>
+	<a href="resultado.html">Resultado</a>
+</li>
+<li>
+<a href="contacto.html">Contacto</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<h2>Formulario</h2>
+
+
+<form id="pedido">
+	<p><em><u>Nombre: <input type="text" name="nombre" id="nombre" size="30">
+	</p>
+	<p>Apellido: <input type="text" name="apellido" id="apellido" size="30">
+	</p>
+	<p>Direccion: <input type="text" name="direccion" id="direccion" size="30">
+	</p>
+	<p>Colonia: <input type="text" name="colonia" id="colonia" size="30">
+	</p>
+	<p>Telefono: <input type="text" name="telefono" id="telefono" size="10">
+	</p></em></u>
+<p>Servilletas: 
+    	<input  type="radio" name="servilletas" value="Si"><rosa>Si</rosa></rosa>
+    	<input type="radio" name="servilletas" value="No"><morado>No</morado> <br><br>
+<p> Que vas a pedir de comer?:
+    	<select name="comida" id="comida">
+        <optgroup label="Huevos">
+    		<option value="Huevos en salsa verde">Salsa Verde</option>
+    			<option value="Huevos en salsa roja">Salsa Roja</option>
+          <option value="Huevos Rancheros">Rancheros</option>
+          <option value="Omelett de Huevo">Omelett</option>
+        </optgroup>
+        <optgroup label="Hot Cakes">
+          <option value="Hot cake con nutella">Nutella</option>
+           <option value="Hot cake con mantequilla de mani">Mani</option>
+              <option value="Hot cake con fruta">Fruta</option>
+               </optgroup>
+         <optgroup label="Chilaquiles caseros (Incluyen frijoles)">
+          <option value="Chilaquiles con huevos">Huevos</option>
+           <option value="Chilaquiles con pollo">Pollo</option>
+        </optgroup>
+         <optgroup label="Waffles">
+          <option value="Waffles con nutella">Nutella</option>
+          <option value="Waffles con fruta">Fruta</option>
+        </optgroup>
+         <optgroup label="Coctel de fruta">
+          <option value="Coctel de fruta Sencillo">Sencillo</option>
+            <option value="Coctel de fruta con miel y granola">Especial</option>
+        </optgroup>
+        <optgroup label="Enchiladas suizas (incluyen cebolla curtida)">
+          <option value="Enchiladas suizas verdes">Verdes</option>
+          <option value="Enchiladas suizas rojas">Rojas</option>
+        </optgroup>
+        <optgroup label="Sopa de fideos (incluyen dos panes)">
+          <option value="Sopa sencilla">Sencilla</option>
+        <option value="Sopa con pollo">Pollo</option>
+          </optgroup>
+          <optgroup label="Sandwich">
+            <option value="Sandwich de jamon">Jamon</option>
+            <option value="Sandwich de pollo">Pollo</option>
+          </optgroup>
+    		</select>
+        <p> Que vas a pedir de tomar?:
+                <select name="bebida" id="bebida">
+  <optgroup label="Aguas">
+    <option value="Agua de Melon">Melon</option>
+     <option value="Agua de Limon">Limon</option>
+      <option value="Agua de Sandia">Sandia</option>
+       <option value="Agua de Naranja">Naranja</option>
+    </optgroup>
+        <optgroup label="Sodas">
+           <option value="Soda Cola-Cola">Cola</option>
+            <option value="Soda Sprite">Sprite</option>
+             <option value="Soda Joya">Joya</option>
+              <option value="Soda Orange">Orange</option>
+            </optgroup>
+            <optgroup label="Malteadas">
+              <option value="Malteada de Fresa">Fresa</option>
+               <option value="Malteada Vainilla">Vainilla</option>
+                <option value="Malteada de Chocolate">Chocolate</option>
+              </optgroup>
+              <optgroup label="Tes">
+                 <option value="Te de Manzanilla">Manzanilla</option>
+                  <option value="Te Rojo">Rojo</option>
+                    <option value="Te de Canela">Canela</option>
+                  </optgroup>
+                  <optgroup label="Licuados">
+                     <option value="Licuado de Platano">Platano</option>
+                      <option value="Licuado de Melon">Melon</option>
+                       <option value="Licuado de Fresa">Fresa</option>
+                       <option value="Licuado de Papaya">Papaya</option> 
+              </optgroup>
+              <optgroup label="Cafes">
+              <option value="Espresso">Espresso</option>
+                <option value="Americano">Americano</option>
+                  <option value="Latte Vainilla">Latte de vainilla</option>
+                    <option value="Caramel Macchiato">Caramel Macchiatio</option>
+                  </optgroup>
+         </select>
+         <p> Cual sera tu metodo de pago?:
+          <select name="pago" id="pago">
+            <optgroup label="Pago">
+              <option value="Efectivo">Efectivo</option>
+              <option value="Cheques">Cheques</option>
+              <option value="Tarjeta de debito">Tarjeta de debito</option>
+                   <option value="Tarjeta de credito">Tarjeta de credito</option>
+                        <option value="Pagos moviles">Pagos moviles</option>
+                             <option value="Transferencias bancarias">Transferencias bancarias</option>
+            </optgroup>
+          </select>
+        <hr>
+        <h1 style="color: blueviolet;">Complementos</h1>
+        <input type="checkbox" id="frijoles" checked><label for="frijoles" style="font-size: 20px;">Frijoles</label><br>
+         <input type="checkbox" id="arroz"><label for="arroz" style="font-size: 20px;">Arroz</label><br>  
+        <input type="checkbox" id="papas"><label for="papas" style="font-size: 20px;">Papas fritas</label><br> 
+         <input type="checkbox" id="papasg"><label for="papasg" style="font-size: 20px;">Papas en gajos</label><br>
+         <input type="checkbox" id="queso"><label for="queso" style="font-size: 20px;">Queso</label><br>
+          <input type="checkbox" id="tomate"><label for="tomate" style="font-size: 20px;">Tomate</label><br>
+        <input type="checkbox" id="cebolla"><label for="cebolla" style="font-size: 20px;">Cebolla</label><br>
+        <input type="checkbox" id="pepinillos"><label for="pepinillos" style="font-size: 20px;">Pepinillos</label><br>
+         <input type="checkbox" id="piña"><label for="piña" style="font-size: 20px;">Piña</label><br>
+    	  <input type="checkbox" id="fruta"><label for="fruta" style="font-size: 20px;">Fruta o Vegetales</label><br>
+          <input type="checkbox" id="bbq"><label for="bbq" style="font-size: 20px;">BBQ</label><br>
+           <input type="checkbox" id="mangoh"><label for="mangoh" style="font-size: 20px;">Mango Habanero</label><br>
+            <input type="checkbox" id="buffalo"><label for="buffalo" style="font-size: 20px;">Buffalo</label><br>
+        <input type="checkbox" id="totopos"><label for="totopos" style="font-size: 20px;">Totopos</label><br>
+       <input type="checkbox" id="tortillas"><label for="tortillas" style="font-size: 20px;">Tortillas</label><br>
+      </p>
+    	<input type="submit" value="Enviar">
+    	<input type="reset" value="Borrar">
+  </form>
+  <script type="text/javascript">
+  const form=document.getElementById("pedido");
+  form.addEventListener("submit", function(event){
+  event.preventDefault();
+const formData=new FormData(form);
+  const orden={
+  	nombre:formData.get("nombre"),
+  	apellido:formData.get("apellido"),
+  	telefono:formData.get("telefono"),
+  	direccion:formData.get("direccion"),
+  	colonia:formData.get("colonia"),
+  	servilletas:formData.get("servilletas"),
+  	comida:formData.get("comida"),
+        bebida:formData.get("bebida"),
+         pago:formData.get("pago"),
+            frijoles:document.getElementById("frijoles").checked ? "Si":"No",
+              arroz:document.getElementById("arroz").checked ? "Si":"No",
+    papas:document.getElementById("papas").checked ? "Si":"No",
+     papasg:document.getElementById("papasg").checked ? "Si":"No",
+       queso:document.getElementById("queso").checked ? "Si":"No",
+    tomate:document.getElementById("tomate").checked ? "Si" : "No",
+     cebolla:document.getElementById("cebolla").checked ? "Si":"No",
+ pepinillos:document.getElementById("pepinillos").checked ? "Si":"No",
+    piña:document.getElementById("piña").checked ? "Si":"No",
+     fruta:document.getElementById("fruta").checked ? "Si":"No",
+      bbq:document.getElementById("bbq").checked ? "Si":"No",
+      mangoh:document.getElementById("mangoh").checked ? "Si":"No",
+       buffalo:document.getElementById("buffalo").checked ? "Si":"No",
+         totopos:document.getElementById("totopos").checked ? "Si":"No",
+             tortillas:document.getElementById("tortillas").checked ? "Si":"No"
+};
+  localStorage.setItem("orden",JSON.stringify(orden));
+  window.location.href="pedidorealizado.html";
+});
+</script>
+</body>
+</html>
